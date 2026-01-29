@@ -11,7 +11,7 @@
         <div class="container">
             <div class="name">Muqaddas, Khalid</div>
             <nav class="nav">
-                <ul>
+                <ul class="nav-list">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#education">Education</a></li>
@@ -19,6 +19,11 @@
                     <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
             </nav>
         </div>
     </header>
@@ -28,12 +33,12 @@
         <div class="container">
             <div class="hero-content">
                 <div class="left-content">
-                    <h1 class="main-heading">Welcome to My Portfolio</h1>
+                    <h1 class="main-heading"><span class="animated-icon">✨</span> Welcome to My Portfolio</h1>
                     <h2 class="sub-heading">I'm Muqaddas, a Web Developer</h2>
                     <p class="description">I'm Muqaddas and a web developer passionate about creating beautiful and functional websites.</p>
                     <div class="buttons">
                         <a href="#contact" class="btn hire-me">Hire Me</a>
-                        <a href="#projects" class="btn lets-talk">Let's Talk</a>
+                        <a href="login.html" class="btn lets-talk" onclick="handleLoginClick(event)">Let's Talk</a>
                     </div>
                 </div>
                 <div class="right-content">
@@ -49,7 +54,7 @@
             <h1 class="about-heading">About me</h1>
             <img src="https://i.pinimg.com/736x/e0/02/cf/e002cf729c08714006864016b38da22e.jpg" alt="Profile Image" class="circular-image">
             <p class="intro">I'm Muqaddas, a passionate web developer with a love for creating innovative and user-friendly websites. I specialize in front-end development and enjoy bringing ideas to life through code.</p>
-            <h2 class="main-name">Muqaddas Khalid</h2>
+            <h2>Muqaddas Khalid</h2>
             <a href="#projects" class="btn projects-btn">My Projects</a>
         </div>
     </section>
@@ -82,7 +87,7 @@
     </section>
 
     <!-- SKILLS SECTION -->
- <section id="skills" class="skills">
+    <section id="skills" class="skills">
         <div class="container">
             <h1 class="skills-heading">My Skills</h1>
             <div class="skills-grid">
@@ -98,10 +103,6 @@
                     <div class="skill-card-title">Basic JavaScript</div>
                     <p class="skill-card-description">Experienced in interactive web development with JavaScript.</p>
                 </div>
-                </div>
-                <div class="skil-m">
- <div class="skills-grid">
-
                 <div class="skill-card">
                     <div class="skill-card-title">Bootstrap</div>
                     <p class="skill-card-description">Building responsive and mobile-first websites with Bootstrap framework.</p>
@@ -110,12 +111,11 @@
                     <div class="skill-card-title">MS Office</div>
                     <p class="skill-card-description">Proficient with Microsoft Office suite for productivity and documentation.</p>
                 </div>
-   <div class="skill-card">
+                <div class="skill-card">
                     <div class="skill-card-title">Basic Git & GitHub</div>
                     <p class="skill-card-description">Platform for hosting repositories and collaborating on projects.</p>
                 </div>
             </div>
-</div>
         </div>
     </section>
 
@@ -153,7 +153,7 @@
                     <div class="project-card-content">
                         <h3 class="project-card-title">My Portfolio</h3>
                         <p class="project-card-description">Personal portfolio website showcasing skills, education, and projects. Responsive design with smooth scrolling and interactive navigation elements.</p>
-                        <a href="https://muqaddas-portfolio.com" target="_blank" class="btn project-btn">Visit Website</a>
+                        <a href="https://muqaddaskhalid786.github.io/my-portfolio/" target="_blank" class="btn project-btn">Visit Website</a>
                     </div>
                 </div>
             </div>
@@ -201,11 +201,11 @@
                     <p><strong>Contact Number:</strong> 03081665436</p>
                     <p><strong>WhatsApp Number:</strong> 03217927322</p>
                     <div class="social-icons">
-                        <a href="https://www.facebook.com" target="_blank" class="social-icon">
+                        <a href="https://www.facebook.com" target="_blank" class="social-icon" title="Facebook">
                             <img src="https://img.icons8.com/color/48/000000/facebook.png" alt="Facebook">
                         </a>
-                        <a href="https://www.instagram.com" target="_blank" class="social-icon">
-                            <img src="https://img.icons8.com/color/48/000000/instagram.png" alt="Instagram">
+                        <a href="https://wa.me/03217927322" target="_blank" class="social-icon" title="WhatsApp">
+                            <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp">
                         </a>
                     </div>
                 </div>
@@ -237,11 +237,11 @@
                     <p>Contact Number: 03081665436</p>
                     <p>WhatsApp Number: 03217927322</p>
                     <div class="social-icons">
-                        <a href="https://www.facebook.com" target="_blank" class="social-icon">
+                        <a href="https://www.facebook.com" target="_blank" class="social-icon" title="Facebook">
                             <img src="https://img.icons8.com/color/48/000000/facebook.png" alt="Facebook">
                         </a>
-                        <a href="https://www.instagram.com" target="_blank" class="social-icon">
-                            <img src="https://img.icons8.com/color/48/000000/instagram.png" alt="Instagram">
+                        <a href="https://wa.me/03217927322" target="_blank" class="social-icon" title="WhatsApp">
+                            <img src="https://img.icons8.com/color/48/000000/whatsapp.png" alt="WhatsApp">
                         </a>
                     </div>
                 </div>
