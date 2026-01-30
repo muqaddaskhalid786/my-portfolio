@@ -195,16 +195,18 @@ body {
 
 /* Hero Section */
 .hero {
+    background-image: url('image10.jpg');
+
     height: 100vh;
     display: flex;
     align-items: center;
-    background: linear-gradient(135deg, rgba(135, 189, 216, 0.8) 0%, rgba(13, 13, 13, 0.8) 100%), url('image5.jpg') no-repeat center center;
+    background: linear-gradient(135deg, rgba(135, 189, 216, 0.8) 0%, rgba(13, 13, 13, 0.8) 100%), url('image10.jpg') no-repeat center center;
     background-size: cover;
     color:#d7dee6 ;
     padding: 100px 0; /* Account for fixed header */
 }
 
-
+.right-content img{border-radius: 1000%;}
 
 .hero-content {
     display: flex;
